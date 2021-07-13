@@ -52,7 +52,7 @@ class Magic8Ball extends React.Component {
       "Brandon says adios",
       "Most likely",
       "Definitely NO",
-      "I don't think so"
+      "I don't think so!"
     ];
     const answer = possibleAnswers[this.state.randomIndex];
     return (
