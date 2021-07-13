@@ -1,0 +1,61 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#question{
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #3CBC8D;
+  color: white;
+}
+.eightBall {
+  background-color: black;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.whiteCircle {
+  position: relative;
+  background-color: blanchedalmond;
+  height: 150px;
+  width: 150px;
+  left: 50px;
+  top: 50px;
+  border-radius: 50%;
+}
+
+.topEight {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 10px solid black;
+  left: 45px;
+  top: 15px;
+}
+
+.bottomEight {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 10px solid black;
+  left: 45px;
+  top: 5px;
+}
+
+.eightBallSays {
+  font-family: papyrus;
+  outline-style: dotted;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.mainTitle {
+  color: blue;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
